@@ -1,0 +1,27 @@
+{
+  "name": "node-sql-monsters-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "configure": "./bin/configuredb.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottCampbell86/NODE-SQL-monsters-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottCampbell86/NODE-SQL-monsters-api/issues"
+  },
+  "homepage": "https://github.com/scottCampbell86/NODE-SQL-monsters-api#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "pg": "^8.4.2",
+    "postgres": "^1.0.2"
+  }
+}
